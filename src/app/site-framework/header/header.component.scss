@@ -1,0 +1,24 @@
+.header {
+    z-index: 1;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background: #424242;
+    height: 6em;
+    overflow: hidden;
+    .left-nav, .right-nav{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        * {
+            margin-left: 2em;
+            margin: 1em;
+        }
+    }
+    .left-nav {margin-left: 9em}
+    .right-nav {
+        margin-right: -3em;
+    }
+}

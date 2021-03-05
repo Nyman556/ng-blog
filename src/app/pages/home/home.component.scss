@@ -1,0 +1,43 @@
+.post {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    max-width: 1000px;
+    margin: 1em;
+  }
+ 
+  .header-image {
+    background-image: url('https://devtalk.blender.org/uploads/default/original/2X/c/cbd0b1a6345a44b58dda0f6a355eb39ce4e8a56a.png');
+    background-size: cover;
+    background-position: center;
+  }
+  .post-image {
+      max-width: 350px;
+      max-height: 350px;
+      margin: 1em;
+  }
+  .mat-card-content {
+      display: flex;
+      p {
+          margin: 2em;
+      }
+  }
+  .mat-card-actions {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .delete {
+      position: absolute;
+      top: 0.3em;
+      right: 0.3em;
+  }
+  .post-id {
+      color: darkgray;
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+  }

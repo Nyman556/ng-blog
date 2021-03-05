@@ -1,0 +1,19 @@
+<form class="add-blog-container" (submit)="addNewPost(addPostForm)" #addPostForm="ngForm">
+    <mat-form-field appearance="fill">
+        <mat-label #title>Your Name</mat-label>
+        <input class="input" name="post_name" ngModel matInput>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label #title>title</mat-label>
+        <input class="input" name="post_title" ngModel matInput>
+      </mat-form-field>
+      <mat-form-field>
+      <mat-label #url>Image URL</mat-label>
+      <input class="input" name="post_url" ngModel matInput>
+    </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label #content>Content</mat-label>
+        <textarea class="input" matInput rows="20" cols="40" name="post_content" ngModel></textarea>
+      </mat-form-field>
+      <button mat-raised-button type="submit" color="primary">Post</button>
+</form>
